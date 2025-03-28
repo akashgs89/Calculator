@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/black-concrete-textured-background_53876-145151.jpg?semt=ais_hybrid);
+    background-size: cover;
+    
+}
+
+.container{
+    border: 2px solid rgb(223, 218, 218);
+    width: 370px;
+    height: 540px;
+    margin-left: 28rem;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+
+#see{
+    width: 320px;
+    height: 40px;
+    margin: 40px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+}
+
+::placeholder{
+    left: auto;
+    color: white;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    box-shadow: -4px -4px 10px rgba(10, 47, 114, 0.381);
+}
+#symbol{
+    color: greenyellow;
+}
+
+#equal{
+    background-color: rgba(255, 255, 0, 0.703);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: 15rem;
+    }
+    body{
+        background-image: url(https://img.freepik.com/premium-photo/bright-dark-black-golden-colors-smooth-gradient-solid-background_730620-279920.jpg);
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    body{
+        background-image: url(https://t4.ftcdn.net/jpg/05/31/00/59/360_F_531005946_YGbhSL8hJYJ3SHR9hxG0juhLlalj3Ubd.jpg);
+        background-size: cover;
+       
+
+    }
+    #see {
+        width: 85%;
+        margin: 20px auto;
+    }
+    .btn {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        box-shadow: -4px -4px 10px rgba(11, 73, 189, 0.651);
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+    body{
+        background-image: url(https://i.pinimg.com/736x/2c/a1/bb/2ca1bb1355d30cf128954e6f05bfc0a4.jpg);
+        background-size: cover;
+    }
+    
+    #see {
+        width: 80%;
+        font-size: 18px;
+    }
+    .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        box-shadow: -4px -4px 10px rgba(11, 73, 189, 0.651);
+
+    }
+}
