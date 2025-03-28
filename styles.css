@@ -77,16 +77,24 @@ body{
         margin-right: auto;
        
     }
+
     body{
         background-image: url(https://t4.ftcdn.net/jpg/05/31/00/59/360_F_531005946_YGbhSL8hJYJ3SHR9hxG0juhLlalj3Ubd.jpg);
         background-size: cover;
        
 
     }
+
+    .card{
+        height: 100px;
+        margin-top: 40px;
+    }
+
     #see {
         width: 85%;
         margin: 20px auto;
     }
+
     .btn {
         width: 45px;
         height: 45px;
@@ -101,21 +109,30 @@ body{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        border: none;
+        /* border: none; */
     }
+
+    .card{
+        height: 100px;
+        margin-top: 30px;
+    }
+
     body{
         background-image: url(https://i.pinimg.com/736x/2c/a1/bb/2ca1bb1355d30cf128954e6f05bfc0a4.jpg);
         background-size: cover;
+        height: 99vh;
     }
     
     #see {
         width: 80%;
         font-size: 18px;
     }
+
     .btn {
         width: 40px;
         height: 40px;
         font-size: 16px;
+        margin-top: 30px;
         box-shadow: -4px -4px 10px rgba(11, 73, 189, 0.651);
 
     }
