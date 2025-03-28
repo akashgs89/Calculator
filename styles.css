@@ -114,9 +114,10 @@ body{
     }
 
     .card{
-        height: 100vh;
-        margin-top: 60px;
-        padding-bottom: 30px;
+        height: 450px;
+        padding-top: 60px;
+        align-items: baseline;
+        /* border: 2px solid red; */
     }
 
     body{
